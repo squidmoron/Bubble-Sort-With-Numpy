@@ -1,4 +1,4 @@
-#This scripts is to sort two arrays of Keys and Values..
+#This scripts is to sort two arrays of Keys and Values with numpy lib.
 
 import numpy as np
 
