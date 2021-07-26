@@ -1,3 +1,5 @@
+#This scripts is to sort two arrays of Keys and Values..
+
 import numpy as np
 
 ID=['F1','F2','F3','F4','F5','F6','F7','F8'] #anggap variable mesin
@@ -9,10 +11,10 @@ def bubblesort(key,value,index):
 		x[i]=(key[i],value[i])
 
 	dtype = [('key','S3'),('value',float)]
-	a=np.array(x, dtype=dtype)
-	c=np.sort(a, order='value')
-	c=c[::-1]#sort reverse
-	return(c)
+	temp=np.array(x, dtype=dtype)
+	result=np.sort(temp, order='value')
+	result=result[::-1]#sort reverse
+	return(result)
 
 result=bubblesort(ID,val,8) #nanti disesuaikan dengan variable yg di inginkan
 for i in range(8) :
