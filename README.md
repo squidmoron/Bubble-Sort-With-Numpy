@@ -10,4 +10,4 @@ Try numpy lib after installed :
 1) python
 2) import numpy
 
-if all is ok, just copy my script tes.py and run it..
+if all is ok, you can copy my script tes.py and run it..
